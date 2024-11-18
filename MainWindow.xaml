@@ -1,0 +1,29 @@
+﻿<Window x:Class="VirtualController.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VirtualController"
+        mc:Ignorable="d"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        WindowStyle="None" Topmost="True" 
+        Title="MainWindow" Height="950" Width="1900" >
+
+    <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+
+        <Button x:Name="btnW" Content="W" HorizontalAlignment="Left" Margin="639,155,0,0" VerticalAlignment="Top" Opacity="0.5" Background="Transparent" Foreground="#FFFFEB2D" Width="80" FontSize="30" Height="45" FontWeight="Bold"
+                PreviewMouseLeftButtonDown="btnW_MouseLeftButtonDown" />
+
+        <Button x:Name="btnD" Content="D" HorizontalAlignment="Left" Margin="639,273,0,0" VerticalAlignment="Top" Opacity="0.5" Background="Transparent" Foreground="#FF17FF25" Width="80" FontSize="30" Height="45" FontWeight="Bold"
+                PreviewMouseLeftButtonDown="btnD_MouseLeftButtonDown" />
+
+        <Button x:Name="btnS" Content="S" HorizontalAlignment="Left" Margin="729,212,0,0" VerticalAlignment="Top" Opacity="0.5" Background="Transparent" Foreground="#FFA75841" Width="48" FontSize="30" Height="45" FontWeight="Bold" 
+                PreviewMouseLeftButtonDown="btnS_MouseLeftButtonDown" />
+
+        <Button x:Name="btnA" Content="A" HorizontalAlignment="Left" Margin="577,212,0,0" VerticalAlignment="Top" Opacity="0.5" Background="Transparent" Foreground="#FF26FFE8" Width="58" FontSize="30" Height="45" FontWeight="Bold" 
+                PreviewMouseLeftButtonDown="btnA_MouseLeftButtonDown" />
+    </Grid>
+
+</Window>
